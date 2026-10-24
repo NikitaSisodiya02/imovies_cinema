@@ -1,0 +1,48 @@
+# ============================================
+# Dependencies (NEVER commit node_modules)
+# ============================================
+node_modules/
+*/node_modules/
+
+# ============================================
+# Environment Variables & Secrets (CRITICAL)
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+server/.env
+client/.env
+
+# ============================================
+# Build & Distribution Artifacts
+# ============================================
+dist/
+build/
+client/dist/
+*.tsbuildinfo
+
+# ============================================
+# Logs & Runtime Diagnostics
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# Local Data & Database Persistence
+# ============================================
+server/data/store.json
+
+# ============================================
+# IDE, Editor & OS Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
