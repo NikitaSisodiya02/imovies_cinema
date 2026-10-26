@@ -1,4 +1,4 @@
-# 🎬 IMovies — Next-Gen Full-Stack Cinema Ticket Booking Platform
+# imovies_cinema# 🎬 IMovies — Next-Gen Full-Stack Cinema Ticket Booking Platform
 
 **IMovies** is a full-stack cinema and multiplex ticketing management platform built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js) and **Socket.io**. It provides real-time seat availability tracking, tiered seating maps (VIP Recliners, Premium Club, Standard Classic), secure JWT role-based authentication, digital perforated cinema passes with scannable QR verification, simulated multi-gateway checkout, and an Administrative Command Center.
 
